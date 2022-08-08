@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		33A178708C5F4AADBEDE124C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC2C49F0E61443B28107F447 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C565D44DAE6B59B1D9D48654 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				DEF92BFD3DBF4878BAEB3A46 /* PBXTargetDependency */,
+				10E6C90FE8F74147AEE36C6C /* PBXTargetDependency */,
+				14D9BA0DC2B3438FBA5CF277 /* PBXTargetDependency */,
+				9CA5EAD7D18B489695FAF7C6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A727DB7D5124466CBF5F243C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 11344230BF7C4E639F8257BF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FB3B0F27D2551F2FF269648B /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0942ECE86CAE48A79713B63F /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DF133417E1CD426392B85B42 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/CMakeLists.txt */; };
+		102BB556E49A41589854ABA7 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7E616A64B45A4CC8A6107222 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/CMakeLists.txt */; };
+		113E09DF4EDD4E4C9CE3EA26 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.h */ = {isa = PBXBuildFile; fileRef = 7E6F81A6B62342449C8A4786 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.h */; };
+		1AB42DCBE2BA49B18298997C /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/StudentTests.cpp */ = {isa = PBXBuildFile; fileRef = EBF6B7BD7D8B4057A9FCB52E /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/StudentTests.cpp */; };
+		575D4364E7CF46ACBBD5937E /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D2BEB9C8B36E4DC994BC5F96 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/CMakeLists.txt */; };
+		AF0D681377374A22BC5E24DD /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/Main.cpp */ = {isa = PBXBuildFile; fileRef = C728256638404CF7921E1D65 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/Main.cpp */; };
+		AF53F476072C43EB9F3D72C3 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.h */ = {isa = PBXBuildFile; fileRef = BD33F1C3FB974530A815169A /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.h */; };
+		B307C232D7B245E8A06D94EB /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.cpp */ = {isa = PBXBuildFile; fileRef = 872E0D14856C421C8BB5DADC /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.cpp */; };
+		D5BC6B79136A42F5A0F33683 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/Catch.cpp */ = {isa = PBXBuildFile; fileRef = CE77DBA4594D4938B1E7B08F /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/Catch.cpp */; };
+		EB3514F6F1054B6CBB569446 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/GradedTests.cpp */ = {isa = PBXBuildFile; fileRef = 1813A2AF658D467184A7B7E4 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/GradedTests.cpp */; };
+		EF1573314F884A1086F8C95E /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.cpp */ = {isa = PBXBuildFile; fileRef = E8744CC878964168B63FB9B5 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3849E3EE0DC74CBC99A91D9D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3E5353AA9C3047CF9E3C980C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		AEA41DCDC8E5432C9E524298 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AF563EA06FBD46B0A47D3265 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0FF32813024D41789518ECD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A727DB7D5124466CBF5F243C;
+			remoteInfo = ZERO_CHECK;
+		};
+		1EE455928E9645B89E63067D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A727DB7D5124466CBF5F243C;
+			remoteInfo = ZERO_CHECK;
+		};
+		6267561011A24216BE0F1886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31D8520419B4DBEBCEBF9EA;
+			remoteInfo = src;
+		};
+		6B39B20AD7A449E09EAFC139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31D8520419B4DBEBCEBF9EA;
+			remoteInfo = src;
+		};
+		76AAC69F84304E2C82541516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A727DB7D5124466CBF5F243C;
+			remoteInfo = ZERO_CHECK;
+		};
+		8DA0232C049741CA82F7632E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DED9FA24093475F8E74D3B1;
+			remoteInfo = main;
+		};
+		AA52A15588C74071AF5804EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D280C3CBB14BB683E54371;
+			remoteInfo = tests;
+		};
+		C7D437BD8A5A43A2B049AD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A727DB7D5124466CBF5F243C;
+			remoteInfo = ZERO_CHECK;
+		};
+		D07F855CA02E43B29A0A9EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF73FB5BEAE84D81BD74A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31D8520419B4DBEBCEBF9EA;
+			remoteInfo = src;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1813A2AF658D467184A7B7E4 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/GradedTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GradedTests.cpp; path = tests/GradedTests.cpp; sourceTree = SOURCE_ROOT; };
+		3736657CCF53471F860773D9 /* src */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		523656DA5F8B4B1AB3799B69 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B18A26B950E4A0DA3AA1FB3 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E616A64B45A4CC8A6107222 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E6F81A6B62342449C8A4786 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TSP.h; path = src/TSP.h; sourceTree = SOURCE_ROOT; };
+		872E0D14856C421C8BB5DADC /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TSP.cpp; path = src/TSP.cpp; sourceTree = SOURCE_ROOT; };
+		8BE7D4C736974FB88CF18459 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD33F1C3FB974530A815169A /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SrcMain.h; path = src/SrcMain.h; sourceTree = SOURCE_ROOT; };
+		C728256638404CF7921E1D65 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = Main.cpp; sourceTree = SOURCE_ROOT; };
+		CE77DBA4594D4938B1E7B08F /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		D2BEB9C8B36E4DC994BC5F96 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF133417E1CD426392B85B42 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E8744CC878964168B63FB9B5 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SrcMain.cpp; path = src/SrcMain.cpp; sourceTree = SOURCE_ROOT; };
+		EBF6B7BD7D8B4057A9FCB52E /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/StudentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StudentTests.cpp; path = tests/StudentTests.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592C1084DBF34A7D91CCBDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97598380463D4A998885F696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5729A96F184FD7AF73183D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A0F9A04F2D4EDEA1AC9D92 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		43BC4167A3B442109D2CDC86 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD33F1C3FB974530A815169A /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.h */,
+				7E6F81A6B62342449C8A4786 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6ED57C0E64A948DC87D72184 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				907774D409F643CA94B5EBE7 /* Source Files */,
+				43BC4167A3B442109D2CDC86 /* Header Files */,
+				7E616A64B45A4CC8A6107222 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		7937C5DC7D0B4AF69DD66D20 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E7BBB815656345C8AA2869B6 /* Source Files */,
+				DF133417E1CD426392B85B42 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		79C9ED1077EA424EB6FAAA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		907774D409F643CA94B5EBE7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8744CC878964168B63FB9B5 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.cpp */,
+				872E0D14856C421C8BB5DADC /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A07EC95AE2214649B2B1B09A /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				D9764330CB5D435885D9188D /* Source Files */,
+				D2BEB9C8B36E4DC994BC5F96 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		BEE4C8023E2D4439918D5551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE7D4C736974FB88CF18459 /* main */,
+				3736657CCF53471F860773D9 /* src */,
+				523656DA5F8B4B1AB3799B69 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9764330CB5D435885D9188D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE77DBA4594D4938B1E7B08F /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/Catch.cpp */,
+				1813A2AF658D467184A7B7E4 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/GradedTests.cpp */,
+				EBF6B7BD7D8B4057A9FCB52E /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/StudentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E1A08C43FC504AD79F071CAE = {
+			isa = PBXGroup;
+			children = (
+				7937C5DC7D0B4AF69DD66D20 /* main */,
+				F6F8D4F6B27844E98D770101 /* ALL_BUILD */,
+				6ED57C0E64A948DC87D72184 /* src */,
+				A07EC95AE2214649B2B1B09A /* tests */,
+				BEE4C8023E2D4439918D5551 /* Products */,
+				79C9ED1077EA424EB6FAAA79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BBB815656345C8AA2869B6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C728256638404CF7921E1D65 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/Main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F6F8D4F6B27844E98D770101 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				43A0F9A04F2D4EDEA1AC9D92 /* CMake Rules */,
+				7B18A26B950E4A0DA3AA1FB3 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DED9FA24093475F8E74D3B1 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753142A7146543BC91329979 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				B451D7CAAB3B448C9DAFE94C /* Sources */,
+				97598380463D4A998885F696 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F20045045F44E29DBC165B /* PBXTargetDependency */,
+				0CD4D6D46C4D48E9BE80C524 /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = 8BE7D4C736974FB88CF18459 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+		53D280C3CBB14BB683E54371 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB16C89E8E54FDC802E35D4 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				0DE0F0717AC74B1DBB6D7766 /* Sources */,
+				592C1084DBF34A7D91CCBDC6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3134CF7BB804F34890D0020 /* PBXTargetDependency */,
+				A3827687756A4B4387B5483F /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = 523656DA5F8B4B1AB3799B69 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		C31D8520419B4DBEBCEBF9EA /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FB5807CA214469B52D1632 /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				AF94405CA290455DA59AD49A /* Sources */,
+				EB5729A96F184FD7AF73183D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFE366DC65341429897BBF3 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = 3736657CCF53471F860773D9 /* src */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF73FB5BEAE84D81BD74A23F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 3C17148B0BD443B9984097E0 /* Build configuration list for PBXProject "pa2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AF563EA06FBD46B0A47D3265 /* Debug */,
+				3849E3EE0DC74CBC99A91D9D /* Release */,
+				AEA41DCDC8E5432C9E524298 /* MinSizeRel */,
+				3E5353AA9C3047CF9E3C980C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E1A08C43FC504AD79F071CAE;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				33A178708C5F4AADBEDE124C /* ALL_BUILD */,
+				A727DB7D5124466CBF5F243C /* ZERO_CHECK */,
+				1DED9FA24093475F8E74D3B1 /* main */,
+				C31D8520419B4DBEBCEBF9EA /* src */,
+				53D280C3CBB14BB683E54371 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C565D44DAE6B59B1D9D48654 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FB3B0F27D2551F2FF269648B /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  make -f /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  make -f /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  make -f /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build
+  make -f /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE0F0717AC74B1DBB6D7766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BC6B79136A42F5A0F33683 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/Catch.cpp */,
+				EB3514F6F1054B6CBB569446 /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/GradedTests.cpp */,
+				1AB42DCBE2BA49B18298997C /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/tests/StudentTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF94405CA290455DA59AD49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1573314F884A1086F8C95E /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/SrcMain.cpp */,
+				B307C232D7B245E8A06D94EB /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src/TSP.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B451D7CAAB3B448C9DAFE94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0D681377374A22BC5E24DD /* /Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/Main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CD4D6D46C4D48E9BE80C524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A727DB7D5124466CBF5F243C /* ZERO_CHECK */;
+			targetProxy = 76AAC69F84304E2C82541516 /* PBXContainerItemProxy */;
+		};
+		10E6C90FE8F74147AEE36C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DED9FA24093475F8E74D3B1 /* main */;
+			targetProxy = 8DA0232C049741CA82F7632E /* PBXContainerItemProxy */;
+		};
+		14D9BA0DC2B3438FBA5CF277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31D8520419B4DBEBCEBF9EA /* src */;
+			targetProxy = 6B39B20AD7A449E09EAFC139 /* PBXContainerItemProxy */;
+		};
+		27F20045045F44E29DBC165B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31D8520419B4DBEBCEBF9EA /* src */;
+			targetProxy = 6267561011A24216BE0F1886 /* PBXContainerItemProxy */;
+		};
+		9CA5EAD7D18B489695FAF7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A727DB7D5124466CBF5F243C /* ZERO_CHECK */;
+			targetProxy = 0FF32813024D41789518ECD9 /* PBXContainerItemProxy */;
+		};
+		A3827687756A4B4387B5483F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A727DB7D5124466CBF5F243C /* ZERO_CHECK */;
+			targetProxy = 1EE455928E9645B89E63067D /* PBXContainerItemProxy */;
+		};
+		AEFE366DC65341429897BBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A727DB7D5124466CBF5F243C /* ZERO_CHECK */;
+			targetProxy = C7D437BD8A5A43A2B049AD9E /* PBXContainerItemProxy */;
+		};
+		B3134CF7BB804F34890D0020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31D8520419B4DBEBCEBF9EA /* src */;
+			targetProxy = D07F855CA02E43B29A0A9EE0 /* PBXContainerItemProxy */;
+		};
+		DEF92BFD3DBF4878BAEB3A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D280C3CBB14BB683E54371 /* tests */;
+			targetProxy = AA52A15588C74071AF5804EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068B91EA4C3F4F98BF1A02CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type     -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0BF80CFA18624E3BADBC37A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type     -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/Release/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		26B00AEADBFC48EB9442324B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		361343ACCA5A4A56960A2811 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4DD7488DE8594EAFACD59B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type    '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/Debug/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		54AD96BBC077438886EAD680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		68BD4D45EA9D4E2A9C43F47C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		69044F08225D4259A476E819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type    '-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6AD6E18A002744BA8BB7F366 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type     -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/MinSizeRel/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		83B8CD239C6348B3B5CE61D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8F7429CC884C4963A849E415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type     -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/Release/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		91FF7B092240468EA2745688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/build";
+			};
+			name = Release;
+		};
+		9B5661B1F08548CF9B0A7977 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type        -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/RelWithDebInfo/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B3AD7C2BBEE1460A8B8A2328 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type     -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/MinSizeRel/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C7BB7E00747A4703A76A3AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C8C6B1F82DA945DBA9082C73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC731761EDDA4AB9BBB57205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type    '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/Debug/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CE7FE9DB6E18485895F1DA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/build";
+			};
+			name = Debug;
+		};
+		D489FF13514C4F91936D296D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/build";
+			};
+			name = MinSizeRel;
+		};
+		DB3C256B5C384FFA833116AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type        -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src/RelWithDebInfo/libsrc.a","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E05CA5A05F584D4294D9BF3B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type        -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F869E5798796466DAA68AE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -Werror=return-type     -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FA0585CE62F84ED0BCA473C8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FBA091512AF341D28265F740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yifengyu/Documents/GitHub/pa2-yifeng-yu/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FB5807CA214469B52D1632 /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69044F08225D4259A476E819 /* Debug */,
+				F869E5798796466DAA68AE3C /* Release */,
+				068B91EA4C3F4F98BF1A02CC /* MinSizeRel */,
+				E05CA5A05F584D4294D9BF3B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		11344230BF7C4E639F8257BF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA091512AF341D28265F740 /* Debug */,
+				54AD96BBC077438886EAD680 /* Release */,
+				68BD4D45EA9D4E2A9C43F47C /* MinSizeRel */,
+				FA0585CE62F84ED0BCA473C8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1CB16C89E8E54FDC802E35D4 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC731761EDDA4AB9BBB57205 /* Debug */,
+				0BF80CFA18624E3BADBC37A2 /* Release */,
+				6AD6E18A002744BA8BB7F366 /* MinSizeRel */,
+				DB3C256B5C384FFA833116AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C17148B0BD443B9984097E0 /* Build configuration list for PBXProject "pa2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7FE9DB6E18485895F1DA30 /* Debug */,
+				91FF7B092240468EA2745688 /* Release */,
+				D489FF13514C4F91936D296D /* MinSizeRel */,
+				361343ACCA5A4A56960A2811 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		753142A7146543BC91329979 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD7488DE8594EAFACD59B8A /* Debug */,
+				8F7429CC884C4963A849E415 /* Release */,
+				B3AD7C2BBEE1460A8B8A2328 /* MinSizeRel */,
+				9B5661B1F08548CF9B0A7977 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC2C49F0E61443B28107F447 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B8CD239C6348B3B5CE61D2 /* Debug */,
+				C7BB7E00747A4703A76A3AAC /* Release */,
+				C8C6B1F82DA945DBA9082C73 /* MinSizeRel */,
+				26B00AEADBFC48EB9442324B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF73FB5BEAE84D81BD74A23F /* Project object */;
+}
